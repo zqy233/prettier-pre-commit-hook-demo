@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "prettier": "npx prettier --write ."
+  },
+  "pre-commit": [
+    "prettier"
+  ],
+  "devDependencies": {
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.6.2"
+  }
+}
