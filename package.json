@@ -3,7 +3,7 @@
     "prettier": "npx prettier --write ."
   },
   "pre-commit": [
-    "prettier"
+    "yarn prettier"
   ],
   "devDependencies": {
     "pre-commit": "^1.2.2",
